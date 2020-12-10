@@ -1,0 +1,77 @@
+<div>
+	<h1>Autó hozzáadása:</h1>
+
+	<div class="content">
+		<form id="addCarForm">
+			<p>
+				<input
+					name="name"
+					type="text"
+					required="required"
+					autofocus
+					value="GS430"
+				/>
+			</p>
+			<p>
+				<input
+					name="consumption"
+					type="text"
+					required="required"
+					value="14l/100km"
+				/>
+			</p>
+			<p>
+				<input
+					name="color"
+					type="text"
+					required="required"
+					value="black"
+				/>
+			</p>
+			<p>
+				<select
+					id="man-select"
+					class="man-select"
+					name="manufacturer"
+					required="required"
+				></select>
+			</p>
+			<p>
+				<input
+					name="available"
+					type="number"
+					min="0"
+					required="required"
+					value="1"
+				/>
+			</p>
+			<p>
+				<input
+					name="year"
+					type="number"
+					required="required"
+					min="1900"
+					value="2001"
+				/>
+			</p>
+			<p>
+				<input
+					name="horsepower"
+					type="number"
+					required="required"
+					value="289"
+				/>
+			</p>
+			<p>
+				<input
+					class="submit-button"
+					name="insert"
+					type="submit"
+					value="Autó hozzáadása"
+				/>
+			</p>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/addcar.js"></script>
+</div>

@@ -1,0 +1,159 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background-color: #FFD9E3;
+    width:100%;
+    height:100vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+    width:200px;
+    height:70px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.submit-button{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    width:auto;
+    height:45px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.wrapper{
+    margin-top: 60px;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -10%);
+    width: fit-content;
+    height:auto;
+}
+
+#navigation{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: auto;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 3;
+    border-color: #b33771;
+    background-color: #fff;
+    color: #b33771;
+    font-size: larger;
+}
+
+td{
+    padding: 6px;
+    width: auto;
+    border-style: solid;
+    border-width: 3;
+    border-color: #b33771;
+    text-align: center;
+}
+
+h1{
+    color: #b33771;
+}
+
+thead{
+    background-color: #b33771;
+    color: #fff;
+    font-weight: 900;
+    font-size: larger;
+}
+
+input[type=text],input[type=number],input[type=date] , select{
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #b33771;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #b33771;
+    font-size: larger;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #b33771;
+}
+
+button{
+    background-color: #b33771;
+    color: #FFD9E3;
+    border: none;
+}
+
+img{
+    max-width: 900px;
+    height: auto;
+}
+
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
